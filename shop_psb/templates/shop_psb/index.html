@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  .nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: rgba(255, 255, 255, 0);
+    color: gray;
+  }
+  .nav-pills .pill-1 .nav-link {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Rabbit Eye</h1>
+  <p>Paper Shopping Bag</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">종이</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">로고인쇄</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">끈</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">기성품</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+{% load static %}
+<div class="container-fluid" style="margin:30px">
+   <div class="row">
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+      <div class="col-sm-3">
+      <div class="btn-group-vertical"  style="margin-left:30px;">
+        <button type="button" class="btn btn-secondary">견젹문의&nbsp;<i class='far fa-address-card'></i></button>
+        <button type="button" class="btn btn-outline-secondary">발주문의&nbsp;<i class='far fa-address-card'></i></button>
+        <button type="button" class="btn btn-outline-secondary">웹하드&nbsp;<i class='fas fa-download'></i></button>
+        <button type="button" class="btn btn-outline-secondary">계좌번호&nbsp;<i class='fas fa-won-sign'></i></button>
+        <button type="button" class="btn btn-outline-secondary">고객센터&nbsp;<i class='fas fa-phone'></i></button>
+      </div>
+      </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="margin:30px">
+   <div class="row">
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+     <div class="col-sm-3">
+     </div>
+   </div>
+   <div class="row">
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+      <div class="col-sm-3">
+        <img src="{% static 'shop_psb/images/testimage2.jpg' %}" class="img-thumbnail" alt="Paper Shopping Bag" width="250" >
+        <p class="text-center"><small>아트지/30*40/실크인쇄</small></p>
+      </div>
+     <div class="col-sm-3">
+     </div>
+   </div>
+</div>
+
+<hr />
+
+<div class="container" style="margin-top:60px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Rabbit Eye</h2>
+      <h5>Paper Shopping Bag</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>종이쇼핑백의 모든 것을 취급하는 종합 종이쇼핑백 홈페이지입니다.</p>
+      <h3>Some Links</h3>
+      <p>Product.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item pill-1">
+          <a class="nav-link active" href="#">비닐백</a>
+        </li>
+        <li class="nav-item pill-1">
+          <a class="nav-link" href="#">종이박스</a>
+        </li>
+        <li class="nav-item pill-1">
+          <a class="nav-link" href="#">책자인쇄</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>About DongSung Printing Co., Ltd.</h2>
+      <h5>Since, Dec 7, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>옵셋인쇄전문</p>
+      <p>동성프린팅은 1988년 개인사업자를 시작으로... 다수의 쇼핑백 전문 회사입니다.동성프린팅은 1988년 개인사업자를 시작으로... 다수의 쇼핑백 전문 회사입니다.동성프린팅은 1988년 개인사업자를 시작으로... 다수의 쇼핑백 전문 회사입니다.동성프린팅은 1988년 개인사업자를 시작으로... 다수의 쇼핑백 전문 회사입니다.</p>
+      <br>
+      <h2>CEO Greeting</h2>
+      <h5>Welcome</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>땡굴이입니다.감사합니다.땡굴이입니다.감사합니다.땡굴이입니다.감사합니다.땡굴이입니다.감사합니다.땡굴이입니다.감사합니다.땡굴이입니다.감사합니다.땡굴이입니다.감사합니다.땡굴이입니다.감사합니다.땡굴이입니다.감사합니다.</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+  <p><small>상호:래빗아이 대표자:손은경 사업자등록번호: 000-00-00000 개인정보관리책임자:OOO 통신판매번호:0000</small></p>
+  <p><small>경기도 고양시 일산동구 장항동</small></p>
+  <p><small>Copyright (c) DESIGN All rights reserved</small></p>
+</div>
+
+</body>
+</html>
