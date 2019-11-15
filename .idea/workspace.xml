@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6344f5b-2f83-45a6-ad92-9b9e6e628605" name="Default Changelist" comment="" />
+    <list default="true" id="f6344f5b-2f83-45a6-ad92-9b9e6e628605" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_psb/static/shop_psb/images/testimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_psb/static/shop_psb/images/testimage2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_psb/templates/shop_psb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop_psb/templates/shop_psb/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_psb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_psb/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TSuoCUk0FsVnfAm45lYRJsw3mm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/parksebin" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../anna-master" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sebin\shop_psb\templates\shop_psb" />
+      <recent name="C:\sebin" />
+      <recent name="C:\sebin\shop_psb\static\shop_psb\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\sebin\shop_psb\templates\shop_psb" />
       <recent name="C:\sebin" />
       <recent name="C:\sebin\config" />
     </key>
@@ -42,5 +63,21 @@
       <updated>1573465990848</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
